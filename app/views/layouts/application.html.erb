@@ -7,6 +7,18 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+	<header class="navbar navbar-fixed-top navbar-inverse">
+		<div class="container">
+			<%= link_to "Sample App", '#', id: "logo" %>
+			<nav>
+				<ul class="navbar navbar-nav navbar-right">
+					<li><%= link_to "Home", '#' %>
+					<li><%= link_to "Help", '#' %>
+					<li><%= link_to "About", '#' %>
+				</ul>
+			</nav>
+		</div>
+	</header>
 
 <%= yield %>
 
