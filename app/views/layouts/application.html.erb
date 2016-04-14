@@ -11,16 +11,17 @@
 		<div class="container">
 			<%= link_to "Sample App", '#', id: "logo" %>
 			<nav>
-				<ul class="navbar navbar-nav navbar-right">
-					<li><%= link_to "Home", '#' %>
-					<li><%= link_to "Help", '#' %>
-					<li><%= link_to "About", '#' %>
+				<ul class="nav navbar-nav navbar-right">
+					<li><%= link_to "Home", '#' %></li>
+					<li><%= link_to "Help", '#' %></li>
+					<li><%= link_to "About", '#' %></li>
 				</ul>
 			</nav>
 		</div>
 	</header>
-
-<%= yield %>
+<div class="container">
+	<%= yield %>
+</div>
 
 </body>
 </html>
